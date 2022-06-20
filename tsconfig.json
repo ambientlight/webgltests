@@ -15,7 +15,7 @@
       "dom",
       "es5",
       "scripthost"
-    ]
-  },
-  "files": ["src/index.ts"]
+    ],
+    "outDir": "dist"
+  }
 }

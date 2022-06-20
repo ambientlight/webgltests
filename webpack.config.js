@@ -10,7 +10,7 @@ const isProduction = process.env.NODE_ENV == 'production';
 const hmrEnabled = true
 
 const config = {
-  entry: './src/index.ts',
+  entry: './src/les1.ts',
   output: {
       path: path.resolve(__dirname, 'dist'),
   },
@@ -27,7 +27,7 @@ const config = {
   },
   plugins: [
       new HtmlWebpackPlugin({
-          template: 'index.html',
+          template: 'les1.html',
       }),
       new DefineWebpackPlugin({
         ENVIRONMENT: JSON.stringify({
